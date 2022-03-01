@@ -1,0 +1,192 @@
+active{
+    color: red;
+}
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+.header {
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    font-family: Georgia, "Times New Roman";
+    letter-spacing: 1px;
+}
+
+.text{
+    font-family: Arial, "Times New Roman";
+    font-size: 1.3rem;
+    text-indent: 1.5rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.bld{
+    font-family: Arial, "Times New Roman";
+    font-size: 2rem;
+    font-weight: bold;
+    text-indent: 1.5rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.for_table{
+    font-family: Arial, "Times New Roman";
+    font-size: 1.3rem;
+    text-indent: 1.5rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: center;
+}
+
+pre{
+    padding: 0;
+    display: inline-block;
+    position: center;
+    margin: 0;
+    text-align: left;
+}
+
+.nike
+{
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin: 0px;
+    padding-bottom: 5px;
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+h2
+{
+    font-family: "Times New Roman";
+    font-size: 30px;
+    color: white;
+    background: black;
+    padding: 10px;
+    margin: 1px;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.1rem;
+}
+
+h3
+{
+    font-family: "Times New Roman";
+    font-size: 20px;
+    color: white;
+    background: black;
+    padding: 10px;
+    margin: 1px;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.1rem;
+}
+
+div{
+    margin: 50px;
+}
+
+.list1a {
+    margin: 20px 0 0;
+    padding:0;
+    list-style: none;
+    counter-reset: li;
+}
+.list1a li {
+    border: 2px solid black;
+    background: white;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 16px 10px;
+}
+.list1a li:hover {
+    z-index: 1;
+    color: white;
+}
+.list1a li:before {
+    border: 2px solid black;
+    position: absolute;
+    top: -14px;
+    padding: 2px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: black;
+    counter-increment: li;
+    content: counter(li);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.list1a li:hover:before {
+    background: white;
+    color: black;
+    -webkit-transform: translate(-12px, 0);
+    -ms-transform: translate(-12px, 0);
+    -o-transform: translate(-12px, 0);
+    transform: translate(-12px, 0);
+}
+.list1a li:after {
+    content: "";
+    position: absolute;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-transition-property: width;
+    transition-property: width;
+    z-index: -1;
+    background: black;
+    color: white;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 0;
+}
+
+
+.list1a li:hover:after {
+    width: 100%;
+    color: white;
+}
+
+.face {
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    margin: auto;
+    display: block;
+}
+
+.face_face {
+    box-shadow: 0 0 0px 20px black;
+}
+
+.spisok {
+    line-height: 2rem;
+}
+
+.minus {
+    text-decoration: line-through;
+    text-transform: capitalize;
+}
+
+.now {
+    box-shadow: inset 0px 12px 0px 0px black;
+}
